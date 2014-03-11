@@ -1,4 +1,4 @@
-/**
+/*
  * @author Harry Stevens
  * This project will create a bucket-colored map using Google Fusion Tables
  */
@@ -7,8 +7,17 @@
 $(document).ready(pageLoaded);
 
 //pageLoaded loads the Google Visualization library and calls googleLoaded
-function pageLoaded(){
-	google.load("visualization", "1", {packages:["corechart"],callback:googleLoaded});
+function pageLoaded() {
+	google.load("visualization", "1", {
+		packages : ["corechart"],
+		callback : googleLoaded
+	});
 }
 
+function googleLoaded(){
+	$.get(****, dataLoaded, 'json');
+}
 
+function dataLoaded(****){
+	
+}
