@@ -1,0 +1,1 @@
+This repo hosts the code we worked on in class for week 7.
